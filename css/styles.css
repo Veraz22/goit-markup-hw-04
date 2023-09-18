@@ -401,8 +401,6 @@ img {
 .portfolio-photo {
   position: relative;
   overflow: hidden;
-  width: 360px;
-  height: 420px;
 }
 
 .portfolio-items:hover .portfolio-overlay-text {
