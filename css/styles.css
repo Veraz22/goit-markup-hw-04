@@ -96,7 +96,24 @@ img {
   text-transform: uppercase;
 }
 
+.nav-link.active::after {
+  color: #404bbf;
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+
+.nav-link.active {
+  color: #404bbf;
+}
+
 .nav-link {
+  position: relative;
   color: #2e2f42;
   font-family: var(--font-primary);
   font-size: 16px;
@@ -139,21 +156,6 @@ img {
   color: #404bbf;
 }
 
-.current {
-  position: relative;
-  color: значення;
-}
-.nav-link.current::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  display: block;
-  width: 100%;
-  height: значення;
-  border-radius: значення;
-  background-color: значення;
-}
 /* Hero section */
 
 .hero-section {
